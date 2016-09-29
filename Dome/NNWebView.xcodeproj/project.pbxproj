@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166F8F5B1D9CE9400091EBC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F5A1D9CE9400091EBC9 /* main.m */; };
+		166F8F5E1D9CE9400091EBC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F5D1D9CE9400091EBC9 /* AppDelegate.m */; };
+		166F8F641D9CE9400091EBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166F8F621D9CE9400091EBC9 /* Main.storyboard */; };
+		166F8F661D9CE9400091EBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166F8F651D9CE9400091EBC9 /* Assets.xcassets */; };
+		166F8F691D9CE9400091EBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166F8F671D9CE9400091EBC9 /* LaunchScreen.storyboard */; };
+		166F8F741D9CE9400091EBC9 /* NNWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F731D9CE9400091EBC9 /* NNWebViewTests.m */; };
+		166F8F7F1D9CE9410091EBC9 /* NNWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F7E1D9CE9410091EBC9 /* NNWebViewUITests.m */; };
+		166F8F8E1D9CE9AE0091EBC9 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F8D1D9CE9AE0091EBC9 /* AViewController.m */; };
+		166F8F971D9D05E10091EBC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F961D9D05E10091EBC9 /* ViewController.m */; };
+		166F8F9A1D9D07BE0091EBC9 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F991D9D07BE0091EBC9 /* BViewController.m */; };
+		166F8F9C1D9D0A700091EBC9 /* JSBridge.html in Resources */ = {isa = PBXBuildFile; fileRef = 166F8F9B1D9D0A700091EBC9 /* JSBridge.html */; };
+		166F8F9F1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F8F9E1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.m */; };
+		166F8FA11D9D0CC90091EBC9 /* JavaScriptCore.html in Resources */ = {isa = PBXBuildFile; fileRef = 166F8FA01D9D0CC90091EBC9 /* JavaScriptCore.html */; };
+		1FDCA29A2C8F9BEBBC0E2D6A /* libPods-NNWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E06CA67B69869F0F874752E4 /* libPods-NNWebView.a */; };
+		3862CBCF7579B200580B9D97 /* libPods-NNWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 943E6F4306227A9DE5ED522C /* libPods-NNWebViewTests.a */; };
+		6B50D5DC9334F9B4A2C4264A /* libPods-NNWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B2EEC9ECE9BF47456A7331 /* libPods-NNWebViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166F8F701D9CE9400091EBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166F8F4E1D9CE9400091EBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166F8F551D9CE9400091EBC9;
+			remoteInfo = NNWebView;
+		};
+		166F8F7B1D9CE9400091EBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166F8F4E1D9CE9400091EBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166F8F551D9CE9400091EBC9;
+			remoteInfo = NNWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166F8F561D9CE9400091EBC9 /* NNWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F8F5A1D9CE9400091EBC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166F8F5C1D9CE9400091EBC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166F8F5D1D9CE9400091EBC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166F8F631D9CE9400091EBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166F8F651D9CE9400091EBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166F8F681D9CE9400091EBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166F8F6A1D9CE9400091EBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F8F6F1D9CE9400091EBC9 /* NNWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F8F731D9CE9400091EBC9 /* NNWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNWebViewTests.m; sourceTree = "<group>"; };
+		166F8F751D9CE9400091EBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F8F7A1D9CE9400091EBC9 /* NNWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F8F7E1D9CE9410091EBC9 /* NNWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNWebViewUITests.m; sourceTree = "<group>"; };
+		166F8F801D9CE9410091EBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F8F8C1D9CE9AE0091EBC9 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		166F8F8D1D9CE9AE0091EBC9 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		166F8F951D9D05E10091EBC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		166F8F961D9D05E10091EBC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		166F8F981D9D07BE0091EBC9 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		166F8F991D9D07BE0091EBC9 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		166F8F9B1D9D0A700091EBC9 /* JSBridge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSBridge.html; sourceTree = "<group>"; };
+		166F8F9D1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptCoreViewController.h; sourceTree = "<group>"; };
+		166F8F9E1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreViewController.m; sourceTree = "<group>"; };
+		166F8FA01D9D0CC90091EBC9 /* JavaScriptCore.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JavaScriptCore.html; sourceTree = "<group>"; };
+		3E94E527476766ED1F0BE18B /* Pods-NNWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebView/Pods-NNWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		553AED9A36495C322A216576 /* Pods-NNWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebViewTests/Pods-NNWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9325E42AF9F8CEEE7A57BFDB /* Pods-NNWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebViewTests/Pods-NNWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		943E6F4306227A9DE5ED522C /* libPods-NNWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B538186F26B67E210F13C88A /* Pods-NNWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebView/Pods-NNWebView.release.xcconfig"; sourceTree = "<group>"; };
+		B6B2EEC9ECE9BF47456A7331 /* libPods-NNWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE6EF4B9F093EC569F1593C /* Pods-NNWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebViewUITests/Pods-NNWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06CA67B69869F0F874752E4 /* libPods-NNWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D38654B32905D192C84B5 /* Pods-NNWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNWebViewUITests/Pods-NNWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166F8F531D9CE9400091EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDCA29A2C8F9BEBBC0E2D6A /* libPods-NNWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F6C1D9CE9400091EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3862CBCF7579B200580B9D97 /* libPods-NNWebViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F771D9CE9400091EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B50D5DC9334F9B4A2C4264A /* libPods-NNWebViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166F8F4D1D9CE9400091EBC9 = {
+			isa = PBXGroup;
+			children = (
+				166F8F581D9CE9400091EBC9 /* NNWebView */,
+				166F8F721D9CE9400091EBC9 /* NNWebViewTests */,
+				166F8F7D1D9CE9400091EBC9 /* NNWebViewUITests */,
+				166F8F571D9CE9400091EBC9 /* Products */,
+				7106A1261D75ABA86FA40E2C /* Pods */,
+				284D2C8725E2AD5D74F94542 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		166F8F571D9CE9400091EBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166F8F561D9CE9400091EBC9 /* NNWebView.app */,
+				166F8F6F1D9CE9400091EBC9 /* NNWebViewTests.xctest */,
+				166F8F7A1D9CE9400091EBC9 /* NNWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166F8F581D9CE9400091EBC9 /* NNWebView */ = {
+			isa = PBXGroup;
+			children = (
+				166F8F5C1D9CE9400091EBC9 /* AppDelegate.h */,
+				166F8F5D1D9CE9400091EBC9 /* AppDelegate.m */,
+				166F8F951D9D05E10091EBC9 /* ViewController.h */,
+				166F8F961D9D05E10091EBC9 /* ViewController.m */,
+				166F8F8C1D9CE9AE0091EBC9 /* AViewController.h */,
+				166F8F8D1D9CE9AE0091EBC9 /* AViewController.m */,
+				166F8F981D9D07BE0091EBC9 /* BViewController.h */,
+				166F8F991D9D07BE0091EBC9 /* BViewController.m */,
+				166F8F9D1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.h */,
+				166F8F9E1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.m */,
+				166F8FA01D9D0CC90091EBC9 /* JavaScriptCore.html */,
+				166F8F9B1D9D0A700091EBC9 /* JSBridge.html */,
+				166F8F621D9CE9400091EBC9 /* Main.storyboard */,
+				166F8F651D9CE9400091EBC9 /* Assets.xcassets */,
+				166F8F671D9CE9400091EBC9 /* LaunchScreen.storyboard */,
+				166F8F6A1D9CE9400091EBC9 /* Info.plist */,
+				166F8F591D9CE9400091EBC9 /* Supporting Files */,
+			);
+			path = NNWebView;
+			sourceTree = "<group>";
+		};
+		166F8F591D9CE9400091EBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166F8F5A1D9CE9400091EBC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166F8F721D9CE9400091EBC9 /* NNWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				166F8F731D9CE9400091EBC9 /* NNWebViewTests.m */,
+				166F8F751D9CE9400091EBC9 /* Info.plist */,
+			);
+			path = NNWebViewTests;
+			sourceTree = "<group>";
+		};
+		166F8F7D1D9CE9400091EBC9 /* NNWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				166F8F7E1D9CE9410091EBC9 /* NNWebViewUITests.m */,
+				166F8F801D9CE9410091EBC9 /* Info.plist */,
+			);
+			path = NNWebViewUITests;
+			sourceTree = "<group>";
+		};
+		284D2C8725E2AD5D74F94542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06CA67B69869F0F874752E4 /* libPods-NNWebView.a */,
+				943E6F4306227A9DE5ED522C /* libPods-NNWebViewTests.a */,
+				B6B2EEC9ECE9BF47456A7331 /* libPods-NNWebViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7106A1261D75ABA86FA40E2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E94E527476766ED1F0BE18B /* Pods-NNWebView.debug.xcconfig */,
+				B538186F26B67E210F13C88A /* Pods-NNWebView.release.xcconfig */,
+				553AED9A36495C322A216576 /* Pods-NNWebViewTests.debug.xcconfig */,
+				9325E42AF9F8CEEE7A57BFDB /* Pods-NNWebViewTests.release.xcconfig */,
+				DCE6EF4B9F093EC569F1593C /* Pods-NNWebViewUITests.debug.xcconfig */,
+				F26D38654B32905D192C84B5 /* Pods-NNWebViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166F8F551D9CE9400091EBC9 /* NNWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F8F831D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebView" */;
+			buildPhases = (
+				F3D69BF8270D2EDF5E2AB3EB /* [CP] Check Pods Manifest.lock */,
+				166F8F521D9CE9400091EBC9 /* Sources */,
+				166F8F531D9CE9400091EBC9 /* Frameworks */,
+				166F8F541D9CE9400091EBC9 /* Resources */,
+				031FCFE58585A433D496181C /* [CP] Embed Pods Frameworks */,
+				6A31B11C3550B8DF912C96F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNWebView;
+			productName = NNWebView;
+			productReference = 166F8F561D9CE9400091EBC9 /* NNWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166F8F6E1D9CE9400091EBC9 /* NNWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F8F861D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebViewTests" */;
+			buildPhases = (
+				6A89BAE928F4F0473ADF89B5 /* [CP] Check Pods Manifest.lock */,
+				166F8F6B1D9CE9400091EBC9 /* Sources */,
+				166F8F6C1D9CE9400091EBC9 /* Frameworks */,
+				166F8F6D1D9CE9400091EBC9 /* Resources */,
+				975ED3281F8C086550275184 /* [CP] Embed Pods Frameworks */,
+				C88EE931E0964352591DD8E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166F8F711D9CE9400091EBC9 /* PBXTargetDependency */,
+			);
+			name = NNWebViewTests;
+			productName = NNWebViewTests;
+			productReference = 166F8F6F1D9CE9400091EBC9 /* NNWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166F8F791D9CE9400091EBC9 /* NNWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F8F891D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebViewUITests" */;
+			buildPhases = (
+				9CA47B00C5310D0E6C2C7291 /* [CP] Check Pods Manifest.lock */,
+				166F8F761D9CE9400091EBC9 /* Sources */,
+				166F8F771D9CE9400091EBC9 /* Frameworks */,
+				166F8F781D9CE9400091EBC9 /* Resources */,
+				544B7ADAD4B359C95C04A661 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166F8F7C1D9CE9400091EBC9 /* PBXTargetDependency */,
+			);
+			name = NNWebViewUITests;
+			productName = NNWebViewUITests;
+			productReference = 166F8F7A1D9CE9400091EBC9 /* NNWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166F8F4E1D9CE9400091EBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = NT;
+				TargetAttributes = {
+					166F8F551D9CE9400091EBC9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					166F8F6E1D9CE9400091EBC9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 166F8F551D9CE9400091EBC9;
+					};
+					166F8F791D9CE9400091EBC9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 166F8F551D9CE9400091EBC9;
+					};
+				};
+			};
+			buildConfigurationList = 166F8F511D9CE9400091EBC9 /* Build configuration list for PBXProject "NNWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166F8F4D1D9CE9400091EBC9;
+			productRefGroup = 166F8F571D9CE9400091EBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166F8F551D9CE9400091EBC9 /* NNWebView */,
+				166F8F6E1D9CE9400091EBC9 /* NNWebViewTests */,
+				166F8F791D9CE9400091EBC9 /* NNWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166F8F541D9CE9400091EBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F8F691D9CE9400091EBC9 /* LaunchScreen.storyboard in Resources */,
+				166F8FA11D9D0CC90091EBC9 /* JavaScriptCore.html in Resources */,
+				166F8F661D9CE9400091EBC9 /* Assets.xcassets in Resources */,
+				166F8F9C1D9D0A700091EBC9 /* JSBridge.html in Resources */,
+				166F8F641D9CE9400091EBC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F6D1D9CE9400091EBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F781D9CE9400091EBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031FCFE58585A433D496181C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWebView/Pods-NNWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544B7ADAD4B359C95C04A661 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWebViewUITests/Pods-NNWebViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A31B11C3550B8DF912C96F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWebView/Pods-NNWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A89BAE928F4F0473ADF89B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		975ED3281F8C086550275184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWebViewTests/Pods-NNWebViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA47B00C5310D0E6C2C7291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C88EE931E0964352591DD8E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NNWebViewTests/Pods-NNWebViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D69BF8270D2EDF5E2AB3EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166F8F521D9CE9400091EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F8F9F1D9D0CBC0091EBC9 /* JavaScriptCoreViewController.m in Sources */,
+				166F8F8E1D9CE9AE0091EBC9 /* AViewController.m in Sources */,
+				166F8F5E1D9CE9400091EBC9 /* AppDelegate.m in Sources */,
+				166F8F971D9D05E10091EBC9 /* ViewController.m in Sources */,
+				166F8F9A1D9D07BE0091EBC9 /* BViewController.m in Sources */,
+				166F8F5B1D9CE9400091EBC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F6B1D9CE9400091EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F8F741D9CE9400091EBC9 /* NNWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F8F761D9CE9400091EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F8F7F1D9CE9410091EBC9 /* NNWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166F8F711D9CE9400091EBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166F8F551D9CE9400091EBC9 /* NNWebView */;
+			targetProxy = 166F8F701D9CE9400091EBC9 /* PBXContainerItemProxy */;
+		};
+		166F8F7C1D9CE9400091EBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166F8F551D9CE9400091EBC9 /* NNWebView */;
+			targetProxy = 166F8F7B1D9CE9400091EBC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166F8F621D9CE9400091EBC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166F8F631D9CE9400091EBC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		166F8F671D9CE9400091EBC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166F8F681D9CE9400091EBC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166F8F811D9CE9410091EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		166F8F821D9CE9410091EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166F8F841D9CE9410091EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E94E527476766ED1F0BE18B /* Pods-NNWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		166F8F851D9CE9410091EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B538186F26B67E210F13C88A /* Pods-NNWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		166F8F871D9CE9410091EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553AED9A36495C322A216576 /* Pods-NNWebViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNWebView.app/NNWebView";
+			};
+			name = Debug;
+		};
+		166F8F881D9CE9410091EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9325E42AF9F8CEEE7A57BFDB /* Pods-NNWebViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNWebView.app/NNWebView";
+			};
+			name = Release;
+		};
+		166F8F8A1D9CE9410091EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE6EF4B9F093EC569F1593C /* Pods-NNWebViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = NNWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNWebView;
+			};
+			name = Debug;
+		};
+		166F8F8B1D9CE9410091EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26D38654B32905D192C84B5 /* Pods-NNWebViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = NNWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166F8F511D9CE9400091EBC9 /* Build configuration list for PBXProject "NNWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F8F811D9CE9410091EBC9 /* Debug */,
+				166F8F821D9CE9410091EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F8F831D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F8F841D9CE9410091EBC9 /* Debug */,
+				166F8F851D9CE9410091EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F8F861D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F8F871D9CE9410091EBC9 /* Debug */,
+				166F8F881D9CE9410091EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F8F891D9CE9410091EBC9 /* Build configuration list for PBXNativeTarget "NNWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F8F8A1D9CE9410091EBC9 /* Debug */,
+				166F8F8B1D9CE9410091EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166F8F4E1D9CE9400091EBC9 /* Project object */;
+}
